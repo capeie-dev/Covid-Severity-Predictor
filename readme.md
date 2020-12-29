@@ -6,4 +6,6 @@
   - Ventilator model - 80.2332%
   - ICU model - 80.3024%
 
-
+# Deployment
+https://covidseverity.herokuapp.com/
+(Press submit, then predict :P)

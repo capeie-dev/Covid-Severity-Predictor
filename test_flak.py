@@ -46,7 +46,7 @@ def skrtskrt():
         icu_output = icu_model.predict(df)
         icu_output = icu_translate[icu_output[0]]
         ventilator_output = ventilator_model.predict(df)
-        ventilator_output = vet_translate[vent_output[0]]
+        ventilator_output = vet_translate[ventilator_output[0]]
 
     return render_template('predictions.html',hosp=hosp_output,ded=prediction_out,icu=icu_output,ventilator=ventilator_output)
     '''if hosp_output[0] == 2:
